@@ -1,0 +1,8 @@
+name: infra
+runtime: dotnet
+description: core infra for example program
+config:
+  aws:defaultTags:
+    tags:
+      wfd:managedby: pulumi
+      wfd:repo: pulumi-deployer
