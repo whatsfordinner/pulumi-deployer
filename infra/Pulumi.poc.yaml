@@ -1,1 +1,6 @@
 encryptionsalt: v1:JlLkjqMAqwA=:v1:QkhDhd33O/oBflis:OiihEdBrYWjs6tmIdkIPddjn8m8erA==
+config:
+  aws:defaultTags: 
+    tags:
+      wfd:managedby: pulumi
+      wfd:repo: pulumi-deployer
