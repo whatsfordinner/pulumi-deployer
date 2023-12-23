@@ -96,6 +96,8 @@ return await Deployment.RunAsync(() =>
         {
             ["JOB_QUEUE_URL"] = queue.Url,
             ["JOB_BUCKET_NAME"] = bucket.Id,
-        }
+        },
+        ["secrets"] = new Dictionary<string, object?>
+        { },
     };
 });
